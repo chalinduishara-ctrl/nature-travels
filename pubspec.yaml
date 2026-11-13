@@ -1,0 +1,65 @@
+name: nature_travels
+description: "A new Flutter project for Sri Lanka Wildlife & Nature Expeditions."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase & Authentication (Firestore Auto-Sync Engine)
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
+  cloud_firestore: ^5.6.5
+  google_sign_in: ^6.2.2
+
+  # Networking & Media
+  http: ^1.3.0
+  image_picker: ^1.1.2
+
+  # Interactive Map & GIS Engine
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+
+  # 100% Real Hardware GPS Location & Sensors
+  geolocator: ^13.0.2
+  shared_preferences: ^2.5.6
+
+  # Offline Maps Internal Storage Access Engine
+  path_provider: ^2.1.2
+  url_launcher: ^6.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+# ============================================================================
+# APP ICON CONFIGURATION (Launcher Icon සැකසුම)
+# ============================================================================
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#0F3E2E" # Forest Green Background
+  adaptive_icon_foreground: "assets/icon/app_icon.png"
+
+flutter:
+  uses-material-design: true
+
+  # Asset Files
+  assets:
+    - assets/appbg.jpeg
+    - assets/settingicon.jpeg
+    - assets/profileicon.jpeg
+    - assets/chaticon.jpeg
+    - assets/camaraicon.jpeg
+    - assets/locationicon.jpeg
+    - assets/dataicon.jpeg
+    - assets/icon/app_icon.png

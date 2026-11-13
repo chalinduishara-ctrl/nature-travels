@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "178066771434",
+    "project_id": "nature-travels",
+    "storage_bucket": "nature-travels.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178066771434:android:76cbcc13aab7a996703693",
+        "android_client_info": {
+          "package_name": "com.example.nature_travels"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqHQxKs_sgP5dvRGk8rIXb9OgqnIgwbfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
